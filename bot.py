@@ -47,7 +47,7 @@ async def on_message(message):
         )
 
         embed.add_field(
-            name="'Status' : <:remove:1486921110023831713> Online",
+            name="`status` : <:remove:1486921110023831713> Online",
             value="<:remove:1486921110023831713> Online",
             inline=True
         )
