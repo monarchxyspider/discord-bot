@@ -41,13 +41,13 @@ async def on_message(message):
     if bot.user in message.mentions and message.content.strip() == f"<@{bot.user.id}>":
 
         embed = discord.Embed(
-            title="❤️ ShadeMist",
+            title="Hey There!<:sword:1486605962809704520>",
             description="Thanks for mentioning me!\n\nUse **!ping** to test my latency.",
             color=0xE53935
         )
 
         embed.add_field(
-            name="📡 Status",
+            name="'Status' : <:remove:1486921110023831713> Online",
             value="<:remove:1486921110023831713> Online",
             inline=True
         )
